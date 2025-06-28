@@ -10,14 +10,16 @@
         />
 
         <!-- Bootstrap CSS -->
-        @vite(['resource/sass/app.scss', 'resource/js/app.js'])
+        @vite(['resources/sass/app.scss', 'resource/js/app.js'])
     </head>
 
-    <body class="container">
+    <body class="m-0 p-0">
     @include('partials/header')
+    @include('partials/jumbotron')
 
-    {{-- segnaposto per codice di ogni pagina --}}
-    @yield('contenuto')
+    <main class="bg-dark">
+        @yield('fumetti')
+    </main>
 
     {{-- si può usare al posto dello / la dot notation --}}
     @include('partials.footer')
