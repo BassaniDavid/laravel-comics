@@ -1,12 +1,10 @@
-<div class="card m-0 p-0">
+<div class="m-0 p-0 pb-4 text-white comic ">
 
     <img
         src="{{$immagine}}"
-        class="img-fluid rounded-top p-0 m-0"
+        class="img-fluid p-0 m-0"
         alt="immagine"
-        style="height: 300px; object-fit: cover"
     />
-    <h3 class="m-3">{{$titolo}}</h3>
-    {{-- variabile per inserire contenuto passato dalla pagina --}}
-    <h3 class="m-3">{{$slot}}</h3>
+    <p class="mt-2 text-uppercase text-start">{{$series}}</p>
+
 </div>

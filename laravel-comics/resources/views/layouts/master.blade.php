@@ -15,9 +15,9 @@
 
     <body class="m-0 p-0">
     @include('partials/header')
-    @include('partials/jumbotron')
+    @include('partials/jumbo')
 
-    <main class="bg-dark">
+    <main class="bg-dark position-relative z-1">
         @yield('fumetti')
     </main>
 

@@ -7,6 +7,46 @@
 // Bootstrap
 @import "bootstrap/scss/bootstrap";
 
-header {
-    height: 160px;
+.comic img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.comic {
+    width: 150px;
+}
+
+.jumbo {
+    height: 400px;
+    background-image: url("../img/jumbotron.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+
+.dc-links {
+    height: 400px;
+    background-image: url("../img/footer-bg.jpg");
+    background-position: center top;
+    background-size: cover;
+}
+
+.logo-bg img {
+    width: 550px;
+    position: absolute;
+    top: -60px;
+    left: 55%;
+}
+
+.btn-series {
+    top: 0px;
+    right: -400px;
+}
+
+header nav a {
+    color: black;
+}
+
+header nav a:hover {
+    color: rgb(0, 128, 255);
 }
